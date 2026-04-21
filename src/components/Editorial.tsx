@@ -85,8 +85,8 @@ export default function Editorial() {
             <div className="pt-8 flex justify-between items-center border-t border-black/5">
 
               <div className="font-mono text-[10px] uppercase tracking-widest">
-                <p className="font-bold text-black text-xs mb-1">Ahmeth</p>
-                <p className="text-black/50">Ketua Redaksi // Tech.UTS</p>
+                <p className="font-bold text-black text-xs mb-1">Alintar</p>
+                <p className="text-black/50">Editor Redaksi // Tech.UTS</p>
               </div>
 
               {}
