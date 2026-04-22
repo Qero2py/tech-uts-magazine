@@ -182,7 +182,6 @@ export default function AutomatedArticle({ data }: ArticleProps) {
             </aside>
           </div>
 
-          {/* ... footer tetap sama ... */}
           <footer className="mt-32 pt-20 border-t border-white/10">
             <p className="text-center font-mono text-[10px] uppercase tracking-[1em] mb-12 opacity-20">Up Next</p>
             <Link href={`/artikel/${nextArticle.slug}`} className="group block text-center">

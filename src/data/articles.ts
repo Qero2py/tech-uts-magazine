@@ -1,4 +1,5 @@
 export const TEAM_MEMBERS = ["Ahmeth", "Givan", "Alintar", "Dicky", "Wahdan"];
+
 export const ARTICLES_DATA = [
   { 
     slug: "infrastruktur-ai", 
@@ -25,8 +26,8 @@ export const ARTICLES_DATA = [
     date: "20 April 2026",
     roles: {
       ketua: "Ahmeth",
-      penulis: "Dicky",
-      editor: "Givan",
+      penulis: "Givan",
+      editor: "Alintar",
       layout: "Dicky",
       dokumenter: "Wahdan"
     },
@@ -59,7 +60,7 @@ export const ARTICLES_DATA = [
     date: "22 April 2026",
     roles: {
       ketua: "Ahmeth",
-      penulis: "Alintar",
+      penulis: "Ahmeth",
       editor: "Alintar",
       layout: "Dicky",
       dokumenter: "Wahdan"
@@ -67,5 +68,56 @@ export const ARTICLES_DATA = [
     insight: "Kecerdasan buatan adalah alat bantu eksplorasi, bukan pengganti daya analisis dan berpikir kritis manusia.",
     tags: ["#SISTEMINFORMASI", "#OPINI", "#KAMPUS"],
     img: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=1200" 
-  } 
+  },
+  { 
+    slug: "revolusi-50", 
+    type: "ARTIKEL UTAMA III",
+    headline: "KONVERGENSI TEKNOLOGI",
+    title: "Menuju Era Industri 5.0", 
+    date: "22 April 2026",
+    roles: {
+      ketua: "Ahmeth",
+      penulis: "Dicky",
+      editor: "Alintar",
+      layout: "Dicky",
+      dokumenter: "Wahdan"
+    },
+    insight: "Perpaduan AI, IoT, dan Machine Learning menciptakan ekosistem kolaboratif manusia-mesin untuk efisiensi tinggi[cite: 2, 5].",
+    tags: ["#INDUSTRY50", "#IOT", "#MACHINELEARNING"],
+    img: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=1200" 
+  },
+  { 
+    slug: "ai-robotika", 
+    type: "TECH INSIGHT",
+    headline: "ERA ROBOT HUMANOID",
+    title: "AI dan Masa Depan Robotika", 
+    date: "22 April 2026",
+    roles: {
+      ketua: "Ahmeth",
+      penulis: "Dicky",
+      editor: "Alintar",
+      layout: "Dicky",
+      dokumenter: "Wahdan"
+    },
+    insight: "Robot AI bertransisi dari sekadar fiksi menjadi infrastruktur peradaban yang mampu beradaptasi di lingkungan tidak terstruktur[cite: 24, 39].",
+    tags: ["#ROBOTICS", "#HUMANOID", "#AI"],
+    img: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?q=80&w=1200" 
+  },
+  { 
+    slug: "perkembangan-ai", 
+    type: "EDUKASI",
+    headline: "KEHIDUPAN DIGITAL",
+    title: "AI dalam Keseharian Modern", 
+    date: "22 April 2026",
+    roles: {
+      ketua: "Ahmeth",
+      penulis: "Alintar",
+      editor: "Alintar",
+      layout: "Dicky",
+      dokumenter: "Wahdan"
+    },
+    insight: "Dari asisten virtual hingga diagnosis medis, AI meningkatkan kualitas hidup melalui efisiensi dan personalisasi[cite: 43, 50, 57].",
+    tags: ["#ARTIFICIALINTELLIGENCE", "#HEALTHCARE", "#EDUCATION"],
+    img: "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=1200" 
+  }
 ];
