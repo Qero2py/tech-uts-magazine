@@ -1,3 +1,4 @@
+export const TEAM_MEMBERS = ["Ahmeth", "Givan", "Alintar", "Dicky", "Wahdan"];
 export const ARTICLES_DATA = [
   { 
     slug: "infrastruktur-ai", 
@@ -24,8 +25,8 @@ export const ARTICLES_DATA = [
     date: "20 April 2026",
     roles: {
       ketua: "Ahmeth",
-      penulis: "Givan",
-      editor: "Alintar",
+      penulis: "Dicky",
+      editor: "Givan",
       layout: "Dicky",
       dokumenter: "Wahdan"
     },
@@ -41,7 +42,7 @@ export const ARTICLES_DATA = [
     date: "21 April 2026",
     roles: {
       ketua: "Ahmeth",
-      penulis: "Givan",
+      penulis: "Wahdan",
       editor: "Alintar",
       layout: "Dicky",
       dokumenter: "Wahdan"
@@ -58,7 +59,7 @@ export const ARTICLES_DATA = [
     date: "22 April 2026",
     roles: {
       ketua: "Ahmeth",
-      penulis: "Givan",
+      penulis: "Alintar",
       editor: "Alintar",
       layout: "Dicky",
       dokumenter: "Wahdan"

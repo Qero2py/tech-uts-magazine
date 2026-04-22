@@ -96,7 +96,7 @@ export default function Hero() {
 
           <div className="text-right">
             <p className="text-black/40">Issue</p>
-            <p className="font-bold italic">2026 / VOL.01</p>
+            <p className="font-bold italic">2026 / EIDISI.01</p>
           </div>
 
         </div>

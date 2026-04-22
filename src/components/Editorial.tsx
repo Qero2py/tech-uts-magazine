@@ -36,14 +36,12 @@ export default function Editorial() {
               transition={{ duration: 0.9 }}
               className="text-5xl md:text-[110px] font-black leading-[0.8] tracking-tighter uppercase"
             >
-              PESAN <br />
-              <span className="text-gray-300">REDAKSI</span><br />
+              EDITORIAL <br />
             </motion.h2>
 
             {}
             <div className="absolute top-2 left-2 text-5xl md:text-[110px] font-black leading-[0.8] tracking-tighter uppercase text-black/5 pointer-events-none">
-              PESAN <br />
-              REDAKSI <br />
+              EDITORIAL <br />
             </div>
           </div>
 
@@ -85,8 +83,8 @@ export default function Editorial() {
             <div className="pt-8 flex justify-between items-center border-t border-black/5">
 
               <div className="font-mono text-[10px] uppercase tracking-widest">
-                <p className="font-bold text-black text-xs mb-1">Alintar</p>
-                <p className="text-black/50">Editor Redaksi // Tech.UTS</p>
+                <p className="font-bold text-black text-xs mb-1">AHMETH</p>
+                <p className="text-black/50">Ketua Redaksi // Tech.UTS</p>
               </div>
 
               {}
@@ -94,7 +92,7 @@ export default function Editorial() {
                 whileHover={{ rotate: 0, scale: 1.05 }}
                 className="w-16 h-16 border-2 border-black rounded-full flex items-center justify-center rotate-12 font-black text-[10px]"
               >
-                VOL.1
+                Edisi.1
               </motion.div>
 
             </div>
