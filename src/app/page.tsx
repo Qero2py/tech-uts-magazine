@@ -4,6 +4,7 @@ import Editorial from "@/components/Editorial";
 import ArticleGrid from "@/components/ArticleGrid";
 import Workflow from "@/components/Workflow"; 
 import TeamSection from "@/components/TeamSection";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -37,6 +38,9 @@ export default function Home() {
       </div>
       <div className="relative z-10">
         <TeamSection />
+      </div>
+      <div className="relative z-10">
+        <Footer />
       </div>
     </main>
   );

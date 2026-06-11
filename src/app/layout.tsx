@@ -27,7 +27,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             {children}
           </LayoutGroup>
         </SmoothScrolling>
-        <Footer />
       </body>
     </html>
   );
